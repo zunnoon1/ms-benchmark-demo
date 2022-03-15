@@ -1,0 +1,12 @@
+FROM openjdk:11
+
+ENV SERVICE_FILE ms-benchmark.jar
+ENV SERVICE_HOME /usr/ms-benchmark
+
+EXPOSE 8810
+
+COPY target/$SERVICE_FILE $SERVICE_HOME/
+
+WORKDIR $SERVICE_HOME
+
+ENTRYPOINT ["sh", "-c", "java -jar $SERVICE_FILE"]
