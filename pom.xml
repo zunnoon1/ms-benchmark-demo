@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>demo.benchmark.ms</groupId>
 	<artifactId>ms-benchmark-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>ms-benchmark-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

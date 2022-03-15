@@ -17,7 +17,7 @@ public class DemoController {
 
         try {
             System.out.println("Request arrived");
-            Thread.sleep(60000);
+            Thread.sleep(20000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
